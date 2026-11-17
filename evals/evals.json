@@ -1,0 +1,36 @@
+[
+  {
+    "skills": ["prex"],
+    "query": "/prex I want to build a solo habit tracker mobile app from scratch.",
+    "files": [],
+    "expected_behavior": [
+      "Asks Batch A interview questions in simple, plain language without unexplained jargon",
+      "Provides a brief explanation and 1-2 concrete example answers for each question",
+      "Waits for user answers before generating files or writing any application code",
+      "Recommends OpenSpec for a solo greenfield project and generates specs/mission.md, specs/tech-stack.md, specs/roadmap.md, and a CLAUDE.md under 50 lines",
+      "Writes feature requirements in valid EARS syntax and instructs the user to enter Plan Mode before coding"
+    ]
+  },
+  {
+    "skills": ["prex"],
+    "query": "Help me set up pre-execution specs for adding Stripe billing to our existing Node.js repo.",
+    "files": ["package.json"],
+    "expected_behavior": [
+      "Recognizes a brownfield project and runs the batched plain-language interview",
+      "Recommends OpenSpec change deltas to avoid unnecessary repo reorganization",
+      "Generates design.md with database migration and rollback steps plus strict off-limits rules for .env and payment keys",
+      "Breaks implementation into atomic tasks with test/lint validation gates in tasks.md"
+    ]
+  },
+  {
+    "skills": ["prex"],
+    "query": "/prex We are a 10-person engineering team building a regulated healthcare portal.",
+    "files": [],
+    "expected_behavior": [
+      "Captures compliance, encryption, and auditability NFRs during the plain-language interview",
+      "Compares GitHub Spec Kit and BMAD Method, noting BMAD's high token cost and audit gates",
+      "Produces EARS-formatted requirements covering unwanted error/timeout behavior and security invariants",
+      "Keeps CLAUDE.md lean (<50 lines) with OWASP and dependency-scanning rules"
+    ]
+  }
+]
