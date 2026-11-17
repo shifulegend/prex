@@ -15,7 +15,7 @@ Works with Claude Code, Claude.ai, and Agent Skills-compatible coding agents.
 
 ## Why preX?
 
-AI coding agents drift when dropped straight into code without boundaries. **preX** interviews you in plain, jargon-free language—explaining each question with concrete examples—and produces a lean, immutable **Project Constitution**, **EARS-formatted requirements**, and **atomic tasks** gated behind Plan Mode.
+AI coding agents drift when dropped straight into code without boundaries. **preX** interviews you in plain, jargon-free language and produces a lean, immutable **Project Constitution**, **EARS-formatted requirements**, and **atomic tasks** gated behind Plan Mode.
 
 ```mermaid
 flowchart TD
