@@ -4,7 +4,8 @@
 
 **Stop vibe-coding drift before it starts. Turn a plain-language interview into Spec-Driven Development contracts before writing a single line of code.**
 
-[License: MIT](LICENSE) · [Claude Code Skill](SKILL.md) · [EARS Syntax](references/ears-framework.md)
+[[https://img.shields.io/badge/License-MIT-059669.svg]](LICENSE) [[https://img.shields.io/badge/Claude_Code-Skill-111827.svg]](SKILL.md) [[https://img.shields.io/badge/Agent_Skills-Standard-2563EB.svg]](SKILL.md) [[https://img.shields.io/badge/Requirements-EARS_Syntax-7C3AED.svg]](references/ears-framework.md)
+
 
 Works with Claude Code, Claude.ai, and Agent Skills-compatible coding agents.
 
