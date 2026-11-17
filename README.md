@@ -4,7 +4,7 @@
 
 **Stop vibe-coding drift before it starts. Turn a plain-language interview into Spec-Driven Development contracts before writing a single line of code.**
 
-[[https://img.shields.io/badge/License-MIT-059669.svg]](LICENSE) [[https://img.shields.io/badge/Claude_Code-Skill-111827.svg]](SKILL.md) [[https://img.shields.io/badge/Agent_Skills-Standard-2563EB.svg]](SKILL.md) [[https://img.shields.io/badge/Requirements-EARS_Syntax-7C3AED.svg]](references/ears-framework.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-059669.svg)](LICENSE) [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-111827.svg)](SKILL.md) [![Agent Skills Standard](ttps://img.shields.io/badge/Agent_Skills-Standard-2563EB.svg)](SKILL.md) [![Requirements: EARS Syntax](https://img.shields.io/badge/Requirements-EARS_Syntax-7C3AED.svg)](references/ears-framework.md)
 
 
 Works with Claude Code, Claude.ai, and Agent Skills-compatible coding agents.
@@ -18,7 +18,7 @@ Works with Claude Code, Claude.ai, and Agent Skills-compatible coding agents.
 AI coding agents drift when dropped straight into code without boundaries. **preX** interviews you in plain, jargon-free language—explaining each question with concrete examples—and produces a lean, immutable **Project Constitution**, **EARS-formatted requirements**, and **atomic tasks** gated behind Plan Mode.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["/prex Interview"] --> B["SDD Framework<br/>(OpenSpec · Spec Kit · BMAD · Kiro)"]
     B --> C["Project Constitution<br/>(mission · tech-stack · roadmap)"]
     C --> D["Lean Agent Rules<br/>(CLAUDE.md < 50 lines)"]
